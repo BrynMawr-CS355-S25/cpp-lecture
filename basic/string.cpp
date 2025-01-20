@@ -27,6 +27,10 @@ int main(int argc, char** argv) {
   }
 
   cout << "newphrase: " << newphrase << endl;
+
+  string filename = "hello.txt";
+  string newfilename = filename.substr(0, filename.size()-4) + ".bvh";
+  cout << "newfilename: " << newfilename << endl;
   return 0;
 }
 
